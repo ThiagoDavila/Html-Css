@@ -1,0 +1,2 @@
+para colocar o video do ytb tem q clicar em compartilhar e depois em incorporar 
+q vai aparecer o codigo em html 
