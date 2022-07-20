@@ -8,18 +8,16 @@
     <style>
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
         td{
             border: 1px solid black;
             padding: 7px;
+            text-align: center; /* Alinhamento horizontal*/
+            vertical-align: middle; /* Alinhamento vertical*/
         }
-        tr.linha{
-            background-color: rgba(128, 128, 128, 0.493);
-        }
-        td.dado{
-            background-color: aquamarine;
-        }
+    
     </style>
 </head>
 <body>
@@ -32,7 +30,7 @@
              TABLE DATA=dado da tabela
     -->
     <table>
-        <tr class="linha"> <!--Primeira Linha-->
+        <tr> <!--Primeira Linha-->
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
@@ -43,7 +41,7 @@
             <td>C2</td>
         </tr>
         <tr> <!--Terceira Linha-->
-            <td class="dado">A3</td>
+            <td>A3</td>
             <td>B3</td>
             <td>C3</td>
         </tr>
