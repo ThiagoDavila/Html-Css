@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+        .titulos{
+            border: 1px solid black;
+            padding: 10px;
+            background-color: rgba(128, 128, 128, 0.664);
+            color: white;
+        }
+        .titulosm{
+            border: 1px solid black;
+            padding: 10px;
+            background-color: rgba(128, 128, 128, 0.664);
+            color: white;
+            text-align: left;
+        }
+        .areas{
+            border: 1px solid black; 
+        }
+        .median{
+            border: 1px solid black;
+            background-color: rgba(128, 128, 128, 0.664);
+            color: white;
+            text-align: center;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .nota{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio de Tabelas 14</h1>
+    <table>
+           <thead>
+            <tr>
+                 <th class="titulos" scope="col" rowspan="2">Área</th>
+                 <th class="titulos" scope="col" rowspan="2" >Disciplinas</th>
+                 <th class="titulos" scope="colgroup" colspan="2">Notas</th>
+                 <th class="titulos" scope="col" rowspan="2">Média</th>
+            </tr>
+             <tr>
+                <th class="titulos">Nota 1</th>
+                <th class="titulos">Nota 2</th>
+            </tr>
+           </thead>
+           <tbody>
+           <tr>
+            <th class="areas" scope="rowgroup" rowspan="4">Exatas</th>
+            <td>Matemática</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+           </tr>
+           <tr>
+            <td>Física</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+           </tr class="nota">
+           <tr>
+            <td>Quimica</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+        </tr>
+        <tr><td>Biologia</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+        </tr>
+        <tr>
+            <th class="titulosm" scope="row" colspan="4">Média de Exatas</th>
+            <td class="median">0.0</td>
+        </tr>
+        <tr>
+            <th class="areas" scope="rowgroup" rowspan="2">Humanas</th>
+            <td>História</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+        </tr>
+        <tr>
+            <td>Geográfia</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+            <td class="nota">0.0</td>
+        </tr>
+        <tr>
+            <th class="titulosm" scope="row" colspan="4">Média de Exatas</th>
+            <td class="median">0.0</td>
+        </tr>
+       </tbody>
+    </table>
+</body>
+</html>
